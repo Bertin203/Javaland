@@ -1,0 +1,101 @@
+.footer {
+  background: linear-gradient(180deg, rgba(254, 254, 254, 0) 12.33%,
+  rgba(141, 74, 54, 0.75) 97.33%,
+  rgba(133, 61, 40, 0.75) 103.33%,
+  rgba(150, 67, 43, 0.75) 112.33%);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 350px;
+  display: flex;
+  gap: 150px;
+  justify-content: center;
+  align-items: flex-start;
+  p {
+    font-family: Coustard;
+    color: #844837;
+  }
+
+  .title {
+    font-weight: 900;
+    font-size: 25px;
+  }
+}
+
+.form-component {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+  }
+
+  input {
+    font-family: Coustard;
+    border-radius: 20px;
+    border: 1px solid #000;
+    background: rgba(103, 71, 61, 0.19);
+    height: 30px;
+    padding-left: 10px;
+    color: white;
+  }
+
+  input::placeholder {
+    color: white;
+  }
+
+  textarea {
+    font-family: Coustard;
+    padding-left: 10px;
+    padding-top: 5px;
+    resize: none;
+    border-radius: 15px;
+    border: 1px solid #000;
+    background: rgba(103, 71, 61, 0.19);
+  }
+
+  textarea::placeholder {
+    color: white;
+  }
+
+  #btnEnviar {
+    width: 150px;
+    align-self: center;
+    padding: 0;
+    background: #2C1C17;
+  }
+}
+
+.social-media-component {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+  a {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+  img {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.info-component {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}

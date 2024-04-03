@@ -5,7 +5,7 @@
                                       rgba(150, 67, 43, 0.75) 112.33%);
   height: 300px;
   display: flex;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;

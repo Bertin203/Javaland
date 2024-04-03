@@ -3,9 +3,9 @@
   rgba(141, 74, 54, 0.75) 97.33%,
   rgba(133, 61, 40, 0.75) 103.33%,
   rgba(150, 67, 43, 0.75) 112.33%);
-  position: fixed;
+  position: relative;
   left: 0;
-  bottom: 0;
+  bottom: 0%;
   width: 100%;
   height: 350px;
   display: flex;
@@ -14,7 +14,7 @@
   align-items: flex-start;
   p {
     font-family: Coustard;
-    color: #844837;
+    color: #844837; 
   }
 
   .title {

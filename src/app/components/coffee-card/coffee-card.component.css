@@ -1,0 +1,30 @@
+.card-container{
+  margin: 30px;
+  align-self: center;
+}
+
+.card {
+  font-family: Coustard;
+  background-color: rgba(255, 255, 255, 0.536);
+  color: #5C4037;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 250px;
+  width: 180px;
+  border-radius: 20px;
+
+  .listing-title {
+    font-weight: 300;
+    margin-bottom: 2px;
+  }
+
+  .listing-price {
+    font-weight: 300;
+    margin-top: 10px;
+  }
+
+  img {
+    width: 180px;
+  }
+}

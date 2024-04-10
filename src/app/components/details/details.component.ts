@@ -19,10 +19,11 @@ export class DetailsComponent {
   coffeeCard: Coffee | undefined;
 
   constructor() {
-    const coffeeCardId = parseInt(this.route.snapshot.params['id'], 20);
-
+    const coffeeCardId = parseInt(this.route.snapshot.params['id']);
+    console.log("coffeeCardId:" + coffeeCardId)
     this.coffeeService.getCoffeeCardById(coffeeCardId).then(coffeeCard => {
-      this.coffeeCard = this.coffeeCard;
+     // console.log(coffeeCard?.id)
+       this.coffeeCard = coffeeCard;
     });
   }
 }

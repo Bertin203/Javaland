@@ -1,25 +1,23 @@
-<article>
-  <section class="details-container">
-    <div class="photo-container">
-      <img class="details-photo" [src]="coffeeCard?.photo">
-    </div>
-
-    <div class="content-container">
-      <div class="content-description">
-        <h3 class="details-title">{{ coffeeCard?.name }}</h3>
-        <h3 class="details-weight">{{ coffeeCard?.weight }}g</h3>
+<main class="bg-image">
+  <article>
+    <section class="details-container">
+      
+      <div class="photo-container">
+        <img class="details-photo" [src]="coffeeCard?.photo">
       </div>
 
-      <!--
-      <p class="details-description">
-        Uma mistura suave e terrosa com notas de cacau e avelã, originada da <i>América Central</i>.
-        Feito para quem busca um sabor adocicado leve e natural.
-      </p>
-      -->
+      <div class="content-container">
+        <div class="content-description">
+          <h3 class="details-title">{{coffeeCard?.name}}</h3>
+          <h3 class="details-weight">{{coffeeCard?.weight}}g</h3>
+        </div>
 
-      <h4 class="details-price">R$ {{ coffeeCard?.price }}</h4>
-      <a href="#" class="purchase">Comprar</a>
-    </div>
-  </section>
-</article>
-<myFooter></myFooter>
+        <p class="details-description">{{ coffeeCard?.description}}</p>
+
+        <h4 class="details-price">R$ {{coffeeCard?.price}}</h4>
+        <a href="#" class="purchase">Comprar</a>
+      </div>
+    </section>
+  </article>
+  <myFooter></myFooter>
+</main>

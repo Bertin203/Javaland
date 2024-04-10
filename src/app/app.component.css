@@ -10,7 +10,7 @@
   left: 0;
   width: 100%;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .header-logo {
@@ -35,7 +35,7 @@ a {
   padding:72px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
 
   a {
     color: white;

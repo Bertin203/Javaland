@@ -11,6 +11,8 @@ import { RouterOutlet } from '@angular/router';
   templateUrl: './coffee-card.component.html',
   styleUrl: './coffee-card.component.css'
 })
+
 export class CoffeeCardComponent {
+  readonly baseUrl = '../assets/coffee-photos/';
   @Input() coffeeCard !: Coffee;
 }

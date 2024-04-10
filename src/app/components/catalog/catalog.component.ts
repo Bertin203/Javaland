@@ -1,4 +1,4 @@
-import { Component, inject } from '@angular/core';
+import { Component, Input, inject } from '@angular/core';
 import { Coffee } from '../../interface/coffee';
 import { CoffeeService } from '../../service/coffee.service';
 import { CoffeeCardComponent } from '../coffee-card/coffee-card.component';
@@ -13,15 +13,9 @@ import { ActivatedRoute } from '@angular/router';
   templateUrl: './catalog.component.html',
   styleUrl: './catalog.component.css'
 })
+
 export class CatalogComponent {
   route: ActivatedRoute = inject(ActivatedRoute);
-  coffeeCard: Coffee | undefined;
-
-  coffeeCardList: Coffee[] = [];
-
-  constructor(private coffeeService: CoffeeService ) {
-    this.coffeeService.getAllCoffeeCards().then((coffeeCardList: Coffee[]) => {
-      this.coffeeCardList = this.coffeeCardList;
-    });
-  }
+  // coffeeCard: Coffee | undefined;
+  // @Input() coffeeCard !: Coffee;
 }

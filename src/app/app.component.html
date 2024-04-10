@@ -5,20 +5,11 @@
       <p>Distribuidora de Café</p>
     </section>
   </a>
-  
-  <nav class="nav-options">
-      <a [routerLink]="['/']">Home</a>
-      <a [routerLink]="['/catalog']">Catálogo</a>
-      <a href="#">Login</a>
-  </nav>
 
   <section class="search-bar">
-    <input type="search" placeholder="Buscar">
+    <input type="search" placeholder="Buscar" #filter (keypress)="filterResults(filter.value)">
   </section>
 
-  <nav class="new-client">
-    <a href="#">Novo Cliente? Clique aqui</a>
-  </nav>
 </section>
 <router-outlet></router-outlet>
 

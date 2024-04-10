@@ -11,14 +11,9 @@ const routeConfig: Routes = [
       title: 'Javaland: Home'
   },
   {
-      path:'catalog',
-      component: CatalogComponent,
-      title: 'Javaland: Catalog'
-  },
-  {
       path: 'details/:id',
       component: DetailsComponent,
-      title: ':name'
+      title: 'Product'
   }
 ];
 

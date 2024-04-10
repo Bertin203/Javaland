@@ -14,7 +14,8 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 200px;
+    padding-top: 200px;
+
     gap: 55px;
 
     .img-banner{
@@ -74,4 +75,21 @@
             font-size: 16px;            
         }
     }
+}
+
+
+.catalog {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 50px;
+    padding-bottom: 200px;
+}
+
+#catalog-title {
+    margin-top: 150px;
+    text-align: center;
+    color: #844837;
 }

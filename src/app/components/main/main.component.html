@@ -9,11 +9,25 @@
         </section>
     </section>    
 
+    <h2 id="catalog-title">Nosso Catálogo</h2>
+    <section class="catalog">
+        <coffee-card *ngFor="let coffeeCard of coffeeCardList"  [coffeeCard]="coffeeCard">
+        </coffee-card>
+    </section>
+
+
+    <!--
+
+        Colocar o catálogo na main e implementar o mecanismo de pesquisa.
+        Implementar o forms do footer.
+
+    -->
+
     <section class="scroll-banner">
         <section class="about-banner">
             <h3>Cafés Javaland:</h3>
             <h4>feitos pra quem não vive sem café.</h4>
-            <br>
+            
             <p>Nós da Javaland, temos a satisfação de abrir a sua porta de entrada para uma jornada sensorial pelo mundo do café. Fundada com a paixão por explorar e celebrar a diversidade de sabores e aromas que o café tem a oferecer, nossa missão é conectar amantes de café de todo o mundo com as mais excepcionais e autênticas experiências de café.</p>
             <br>
             <p>Acreditamos que cada xícara de café é uma história única, uma jornada que começa nos campos de cultivo e viaja até a sua xícara. Por isso, buscamos cuidadosamente os grãos mais finos e distintos de regiões renomadas de cultivo de café em todo o mundo. Desde as terras altas dos Andes até as plantações ensolaradas da Etiópia, cada café que oferecemos é selecionado com dedicação e expertise, garantindo uma experiência verdadeiramente memorável a cada gole.</p>

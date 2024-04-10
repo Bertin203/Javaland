@@ -4,4 +4,5 @@ export interface Coffee {
   weight: number;
   price: number;
   photo: string;
+  description: string;
 }

@@ -5,140 +5,160 @@
       "name": "Signature Blend",
       "weight": 500,
       "price": 12.99,
-      "photo": "${coffeeService.baseUrl}coffee 1.png"
+      "photo": "../assets/coffee-photos/coffee 1.png",
+      "description": "A rich, full-bodied coffee with notes of dark chocolate and black cherry. Grown on the slopes of a mist-covered mountain in Central America."
     },
     {
       "id": 1,
       "name": "Golden Sunrise",
       "weight": 500,
       "price": 10.99,
-      "photo": "${coffeeService.baseUrl}coffee 2.png"
+      "photo": "../assets/coffee-photos/coffee 2.png",
+      "description": "A smooth and bright coffee with a citrusy kick. Sourced from the rolling hills of Africa."
     },
     {
       "id": 2,
       "name": "Rainforest",
       "weight": 500,
       "price": 14.99,
-      "photo": "${coffeeService.baseUrl}coffee 3.png"
+      "photo": "../assets/coffee-photos/coffee 3.png",
+      "description": "An earthy and complex coffee with notes of toasted nuts and caramel. Sustainably grown in the rainforests of South America."
     },
     {
       "id": 3,
       "name": "Harvest Moon",
       "weight": 500,
       "price": 9.99,
-      "photo": "${coffeeService.baseUrl}coffee 4.png"
+      "photo": "../assets/coffee-photos/coffee 4.png",
+      "description": "A smooth and earthy blend with notes of cocoa and hazelnut."
     },
     {
       "id": 4,
       "name": "Wildfire",
       "weight": 500,
       "price": 12.99,
-      "photo": "${coffeeService.baseUrl}coffee 5.png"
+      "photo": "../assets/coffee-photos/coffee 5.png",
+      "description": "A bold and smoky blend with notes of dark chocolate and molasses."
     },
     {
       "id": 5,
       "name": "Walnut Wonder",
       "weight": 500,
       "price": 9.99,
-      "photo": "${coffeeService.baseUrl}coffee 6.png"
+      "photo": "../assets/coffee-photos/coffee 6.png",
+      "description": "A smooth and nutty coffee from the slopes of South America."
     },
     {
       "id": 6,
       "name": "Breezy Beans",
       "weight": 500,
       "price": 11.99,
-      "photo": "${coffeeService.baseUrl}coffee 7.png"
+      "photo": "../assets/coffee-photos/coffee 7.png",
+      "description": "This coffee blend is made from beans sourced from Honduras and Costa Rica. It is a light roast coffee with a bright and citrusy flavor profile. It is perfect for pour-over and drip coffee brewing methods."
     },
     {
       "id": 7,
       "name": "Indo-Viet Roast",
       "weight": 500,
       "price": 13.99,
-      "photo": "${coffeeService.baseUrl}coffee 8.png"
+      "photo": "../assets/coffee-photos/coffee 8.png",
+      "description": "This coffee blend is made from beans sourced from Indonesia and Vietnam. It is a medium-dark roast coffee with a spicy and earthy flavor profile, with notes of cinnamon and clove. It is perfect for drip and French press brewing methods."
     },
     {
       "id": 8,
       "name": "Yirgacheffe",
       "weight": 500,
       "price": 12.99,
-      "photo": "${coffeeService.baseUrl}coffee 9.png"
+      "photo": "../assets/coffee-photos/coffee 9.png",
+      "description": "A light and fruity coffee with notes of blueberry and citrus. Grown in the highlands of Ethiopia, this coffee is sure to brighten up your morning."
     },
     {
       "id": 9,
       "name": "Lazy Days",
       "weight": 500,
       "price": 9.99,
-      "photo": "${coffeeService.baseUrl}coffee 10.png"
+      "photo": "../assets/coffee-photos/coffee 10.png",
+      "description": "A medium-bodied coffee with a sweet and nutty flavor. Grown in the lush regions of Brazil, this coffee is perfect for a lazy afternoon."
     },
     {
       "id": 10,
       "name": "Andean Almond",
       "weight": 500,
       "price": 10.99,
-      "photo": "${coffeeService.baseUrl}coffee 11.png"
+      "photo": "../assets/coffee-photos/coffee 11.png",
+      "description": "A smooth and mellow coffee from the mountains of South America, with hints of almond and toffee."
     },
     {
       "id": 11,
       "name": "Savanna Noir",
       "weight": 500,
       "price": 12.99,
-      "photo": "${coffeeService.baseUrl}coffee 12.png"
+      "photo": "../assets/coffee-photos/coffee 12.png",
+      "description": "A bold and rich coffee from the African savanna, with notes of dark chocolate and blackcurrant."
     },
     {
       "id": 12,
       "name": "Coconut Kiss",
       "weight": 500,
       "price": 9.99,
-      "photo": "${coffeeService.baseUrl}coffee 13.png"
+      "photo": "../assets/coffee-photos/coffee 13.png",
+      "description": "A light and refreshing coffee from the shores of the Asia Pacific, with a subtle coconut flavor."
     },
     {
       "id": 13,
       "name": "Arabian Nights",
       "weight": 500,
       "price": 13.99,
-      "photo": "${coffeeService.baseUrl}coffee 14.png"
+      "photo": "../assets/coffee-photos/coffee 14.png",
+      "description": "A bold and spicy coffee from the Middle East, with notes of cardamom and cinnamon."
     },
     {
       "id": 14,
       "name": "Midnight Mocha",
       "weight": 500,
       "price": 14.99,
-      "photo": "${coffeeService.baseUrl}coffee 15.png"
+      "photo": "../assets/coffee-photos/coffee 15.png",
+      "description": "Indulge in the rich, velvety flavors of this decadent mocha blend. Dark chocolate and espresso notes are combined with a touch of vanilla for a luxurious coffee experience."
     },
     {
       "id": 15,
       "name": "Himalayan Heights",
       "weight": 500,
       "price": 12.99,
-      "photo": "${coffeeService.baseUrl}coffee 16.png"
+      "photo": "../assets/coffee-photos/coffee 16.png",
+      "description": "Grown on the steep slopes of the Himalayan Mountains, this coffee is known for its bright acidity and delicate floral notes. This light roast is perfect for those who prefer a more delicate flavor profile."
     },
     {
       "id": 16,
       "name": "Sumatra Blend",
       "weight": 500,
       "price": 8.99,
-      "photo": "${coffeeService.baseUrl}coffee 17.png"
+      "photo": "../assets/coffee-photos/coffee 17.png",
+      "description": "Get your day started with the bold and earthy flavors of Sumatra. Grown on the lush tropical slopes of the Gayo Highlands, this coffee is known for its full body, low acidity, and notes of dark chocolate and smoke."
     },
     {
       "id": 17,
       "name": "Bali Bliss",
       "weight": 500,
       "price": 11.99,
-      "photo": "${coffeeService.baseUrl}coffee 18.png"
+      "photo": "../assets/coffee-photos/coffee 18.png",
+      "description": "Escape to the tropical paradise of Bali with this smooth and mellow blend. Grown on small family farms, this coffee is shade-grown and hand-picked for a rich and nuanced flavor profile. Notes of milk chocolate, hazelnut, and a hint of tropical fruit."
     },
     {
       "id": 18,
       "name": "Central Perk",
       "weight": 500,
       "price": 9.99,
-      "photo": "${coffeeService.baseUrl}coffee 19.png"
+      "photo": "../assets/coffee-photos/coffee 19.png",
+      "description": "A medium roast coffee with a smooth, nutty flavor and a hint of caramel. Inspired by your favorite coffee shop!"
     },
     {
       "id": 19,
       "name": "Chilean Charm",
       "weight": 500,
       "price": 12.99,
-      "photo": "${coffeeService.baseUrl}coffee 20.png"
+      "photo": "../assets/coffee-photos/coffee 20.png",
+      "description": "This coffee boasts a smooth and balanced flavor, with notes of chocolate, caramel, and a hint of fruit. It has a medium body and a subtle acidity that will leave you feeling refreshed and energized."
     }
   ]
 }

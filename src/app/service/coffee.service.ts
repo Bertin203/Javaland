@@ -8,17 +8,19 @@ export class CoffeeService {
 
   constructor() { }
   url = 'http://localhost:3000/coffeeProducts'
+  
 
   async getAllCoffeeCards(): Promise<Coffee[]> {
     const data = await fetch(this.url);
     return await data.json() ?? [];
   }
 
-  async getCoffeeCardById(id: number): Promise<Coffee | undefined> {
-    const data = await fetch(`${this.url}/${id}`);
+  async getCoffeeCardById(id: number): Promise<Coffee | undefined> {    
+    const data = await fetch(`${this.url}/${id}`);     
     return await data.json() ?? {};
   }
 
+  
   readonly baseUrl = '../assets/coffee-photos/';
 
   /*

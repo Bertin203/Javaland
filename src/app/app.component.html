@@ -1,3 +1,24 @@
-<myHeader></myHeader>
-<myMain></myMain>
+<section class="navbar">
+  <a [routerLink]="['/']">
+    <section class="header-logo">
+      <img src="../../../assets/header/Big Ben 1.png" alt="javaland-logo">
+      <p>Distribuidora de Café</p>
+    </section>
+  </a>
+  
+  <nav class="nav-options">
+      <a [routerLink]="['/']">Home</a>
+      <a [routerLink]="['/catalog']">Catálogo</a>
+      <a href="#">Login</a>
+  </nav>
+
+  <section class="search-bar">
+    <input type="search" placeholder="Buscar">
+  </section>
+
+  <nav class="new-client">
+    <a href="#">Novo Cliente? Clique aqui</a>
+  </nav>
+</section>
+<router-outlet></router-outlet>
 

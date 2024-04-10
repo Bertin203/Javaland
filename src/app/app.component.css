@@ -1,0 +1,77 @@
+.navbar {
+  background: linear-gradient(360deg, rgba(254, 254, 254, 0) 12.33%,
+                                      rgba(141, 74, 54, 0.75) 97.33%,
+                                      rgba(133, 61, 40, 0.75) 103.33%,
+                                      rgba(150, 67, 43, 0.75) 112.33%);
+  height: 200px;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.header-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px 42px;
+  
+  p {
+    font-family: Coustard;
+    color: #67473D;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-options {
+  font-family: Coustard;
+  width: 285px;
+  padding:72px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  a {
+    color: white;
+    text-decoration: none;
+    height: 21px;
+  }
+}
+
+.search-bar {
+  padding-top: 69px;
+
+  input {
+    background-image: url('../assets/header/search.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 25px;
+    width: 250px;
+    height: 30px;
+    border-radius: 30px;
+    font-family: Coustard;
+    color: #844837D1;
+  }
+
+  input::placeholder {
+    color: #844837D1;
+  }
+}
+
+.new-client {
+  display: flex;
+  flex-direction: row;
+
+  a {
+    padding:72px;
+    width: 200px;
+    color: #67473D;
+    font-family: Coustard;
+  }
+}

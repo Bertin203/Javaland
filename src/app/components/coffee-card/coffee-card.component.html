@@ -1,8 +1,10 @@
 <section class="card-container">
-  <section class="card">
-    <img class="listing-photo" [src]="coffeeCard.photo">
-    <h4 class="listing-title">{{ coffeeCard.name }}</h4>
-    <p class="listing-weight">{{ coffeeCard.weight }}g</p>
-    <h5 class="listing-price">R$ {{ coffeeCard.price }}</h5>
-  </section>
+  <a [routerLink]="['/details', coffeeCard.id]">
+    <section class="card">
+      <img class="listing-photo" [src]="coffeeCard.photo">
+      <h4 class="listing-title">{{ coffeeCard.name }}</h4>
+      <p class="listing-weight">{{ coffeeCard.weight }}g</p>
+      <h5 class="listing-price">R$ {{ coffeeCard.price }}</h5>
+    </section>
+  </a>
 </section>

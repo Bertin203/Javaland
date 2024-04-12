@@ -10,7 +10,7 @@
   left: 0;
   width: 100%;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: left;
 }
 
 .header-logo {
@@ -44,25 +44,7 @@ a {
   }
 }
 
-.search-bar {
-  padding-top: 69px;
 
-  input {
-    background-image: url('../assets/header/search.png');
-    background-repeat: no-repeat;
-    background-position: left;
-    padding-left: 25px;
-    width: 250px;
-    height: 30px;
-    border-radius: 30px;
-    font-family: Coustard;
-    color: #844837D1;
-  }
-
-  input::placeholder {
-    color: #844837D1;
-  }
-}
 
 .new-client {
   display: flex;

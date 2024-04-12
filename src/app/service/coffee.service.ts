@@ -20,7 +20,12 @@ export class CoffeeService {
     return await data.json() ?? {};
   }
 
-  
+  submitMessage(name: string, email: string, message: string) {
+    console.log(name);
+    console.log(email);
+    console.log(message);
+  }
+
   readonly baseUrl = '../assets/coffee-photos/';
 
   /*

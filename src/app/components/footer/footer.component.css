@@ -60,18 +60,24 @@
     border-radius: 15px;
     border: 1px solid #000;
     background: rgba(103, 71, 61, 0.19);
+    color: white;
   }
 
   textarea::placeholder {
     color: white;
   }
 
-  #btnEnviar {
-    width: 150px;
-    align-self: center;
-    padding: 0;
-    background: #2C1C17;
-  }
+}
+
+#btnEnviar {
+  width: 150px;
+  height: 25px;
+  align-self: center;
+  padding: 0;
+  background: #2C1C17;
+  color: white;
+  border-radius: 15px;
+  border: 1px solid #000;
 }
 
 .social-media-component {
@@ -103,5 +109,37 @@
 
   p {
     font-size: 14px;
+  }
+}
+
+.madeBy {
+  background-color: whitesmoke;  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+  padding-top: 10px;
+  margin-bottom: 8px;
+
+  .label {
+    font-size: 16px;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+  }
+
+  p {
+    color: black;
+    font-style: italic;
+  }
+
+  img {
+    width: 30px;
   }
 }

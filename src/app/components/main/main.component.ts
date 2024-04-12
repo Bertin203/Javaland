@@ -29,10 +29,8 @@ export class MainComponent {
 
   filterResults(text: string) {
     if(!text) {
-      this.coffeeCardList = this.coffeeCardList;
-      return;
+      this.coffeeCardList = this.coffeeCardList;      
     }
-
-    this.filteredCoffeeCardList = this.coffeeCardList.filter(coffeeCardList => coffeeCardList?.name.toLowerCase().includes(text.toLowerCase()))
+      return this.filteredCoffeeCardList = this.coffeeCardList.filter(coffeeCard => coffeeCard?.name.toLowerCase().includes(text.toLowerCase()));
   }
 }

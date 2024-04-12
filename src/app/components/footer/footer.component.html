@@ -1,11 +1,11 @@
 <section class="footer">
     <section class="form-component">
       <p class="title">Contate-nos!</p>
-      <form>
-        <input type="text" placeholder="Nome">
-        <input type="email" placeholder="E-mail">
-        <textarea cols="30" rows="6" placeholder="Escreva sua mensagem"></textarea>
-        <input type="submit" id="btnEnviar" value="Enviar">
+      <form [formGroup]="contactForm" (submit)="submitMessage()">
+        <input type="text" placeholder="Nome" formControlName="name">
+        <input type="email" placeholder="E-mail" formControlName="email">
+        <textarea cols="30" rows="6" placeholder="Escreva sua mensagem" formControlName="message"></textarea>
+        <button type="submit" id="btnEnviar">Enviar</button>
       </form>
     </section>
 
@@ -23,4 +23,18 @@
       <p>Praça Tomé de Souza, S/N - Centro </p>
       <p>Salvador - BA, 40020-000</p>
     </section>
+</section>
+<section class="madeBy">
+  <div class="label">
+    <p><b>Desenvolvido por:</b> Gilberto Souza</p>
+  </div>
+  <div class="links">
+    <p>Contato: </p>
+    <a href="https://github.com/Bertin203">
+      <img  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />  
+    </a>  
+    <a href="https://www.linkedin.com/in/gilbertosouza203/">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-plain.svg" />    
+    </a>        
+  </div>
 </section>

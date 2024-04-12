@@ -1,5 +1,5 @@
 .card-container{
-  margin: 30px;
+  margin: 25px;
   align-self: center;
 }
 
@@ -14,20 +14,25 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 250px;
-  width: 180px;
+  height: 200px;
+  width: 155px;
   border-radius: 20px;
   
+  .listing-photo {
+    width: 125px;
+  }
 
   .listing-title {
     font-weight: 300;
     margin-bottom: 2px;
+    margin-top: 5px;
+    font-size: 14px;
   }
 
   .listing-price {
     font-weight: 300;
     margin-top: 10px;
-    font-size: 20px;
+    font-size: 18px;
     font-style: italic;
   }
 
